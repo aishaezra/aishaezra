@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Tugas</title>
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <!-- <div class="logo-text">Tugas Portofolio Sederhana</div> -->
+                </div>
+                <nav>
+                    <!-- <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div> -->
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <!-- <li><a href="#">Portofolio</a></li>
+                        <li><a href="#">Resume</a></li>  -->
+                        <li><a href="Aisha Ezra Sari_05.pdf">Portofolio</a></li>
+                        <!-- <li><a href="#">Contact</a></li> -->
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="foto/WhatsApp Image 2024-01-31 at 13.45.56_40ec5ed1.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <!-- <h5>Hi I'm <span class="">Studying</span></h5> -->
+                    <h1>Aisha Ezra</h1>
+                    <h4>| <span class="input"> SMKN 8 MALANG </span></h4>
+                    <p>
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                        <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Roboto&display=swap" rel="stylesheet">
+                        Saya bernama lengkap Aisha Ezra Sari yang biasanya kerap dipanggil
+                        dengan nama kecil Icha/Echa. Saya memiliki 1 adik perempuan yang masih berada di bangku SMP kelas 9.
+                        Saat ini saya sedang menjalani PKL sampai bulan Mei nanti.
+                        Terimakasih, jangan lupa follow yaw!.
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://www.instagram.com/aishaezra_?igsh=Znp2MXp3eDd0dDI4" class="btn">Instragram</a>
+                        <a href="http://wa.me/+6285648687255" class="btn">WhatsApp</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-instragram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <!-- <article style="text-align: center;"></article> -->
+            <header style="text-align: center;"></header>
+            <p class="footer__description">Tugas Portofolio Sederhana</p>
+            <!-- <p class="footer__copy">Website by Aisha - 2024</p> -->
+        </div>
+        <footer style="text-align: center;">
+            <p>Copyright &copy; 2024 Peachy Princess</p>
+        </footer>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+    <script>
+        const tooglebtn = document.querySelector('.togglebtn');
+        const nav = document.querySelector('.navlinks');
+        const links = document.querySelector('.navlinks li');
+
+        togglebtn.addEventListener ('click', function(){
+            this.classList.toggle('click');
+            nav.classList.toggle('open');
+        })
+
+        var typed = new Typed(".input",{
+            strings:["SMKN 8 MALANG", "HALO SEMUA", "NYOBA DULU"],
+            typedSpeed: 70,
+            backSpeed: 55,
+            loop: true
+        })
+    </script>
+</body>
+</html>
